@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+.formu{
+    background-color: #5E17EB;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65vw;
+    height: 100vh;
+}
+.formu h1{
+    font-size: 45px;
+    padding: 30px;
+}
+.img{
+    width: 35vw;
+    height: 100vh;
+    background-image: url(../img/Creating\ Your\ Form\ In\ Front\ 2\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* .mensajeError{
+    display: block;
+    color: red;
+    margin-bottom: .5em;
+}
+
+.oculto{
+    display: none;
+}
+
+input.error:not([type=checkbox]):not([type=radio]) {
+    border: 1px solid red;
+} */
